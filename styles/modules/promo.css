@@ -1,0 +1,20 @@
+.promo{
+    height: 44px;
+    background-color:#111131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ABABFA;
+    font-size:13px;
+}
+
+.promo-link{
+    color:#ABABFA;
+    margin-left: 8px;
+}
+
+@media (max-width: 411px){
+    .promo{
+        padding: 0 2px; 
+    }
+}

@@ -1,0 +1,125 @@
+.ebook-block{
+    display: flex;
+    padding: 75px 110px;
+    position: relative;
+    max-width: 1440px;
+    margin: auto;
+    color:#413E52;
+    border-radius: 8px;
+}
+
+.ebook-container{
+    max-width: 1362px;
+    display: flex;
+    padding: 61px 41px 49px 47px;
+    flex-direction: column;
+    background-color: #111131;
+    border-radius: 8px;
+}
+
+.ebook-content{
+    display: flex;
+    gap: 90px;
+    align-items:center;
+}
+
+.heading--ebook{
+    color:#5C5CFF;
+}
+
+.ebook-bttns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 534px;
+    gap: 16px;
+}
+
+.ebook-text{
+    width: 44%;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-size: 31px;
+}
+
+.ebook-btn{
+    width: 100%;
+    height: 56px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.mail-input{
+    font-size: 20px;
+    color:#5C5CFF;
+    background-color: #1B1B4D;
+    border: 1px solid #8989F8;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.mail-input:focus{
+    outline:none;
+}
+
+.mail-input::placeholder{
+    color: #5C5CFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mail-input:focus{
+    border: 2px solid #41b0eb;
+}
+
+@media (max-width: 1188px){
+    .ebook-text{
+        width: 44%;
+        color: #fff;
+        line-height: 44px;
+        letter-spacing: 1px;
+        font-size: 27px;
+        font-size: 22px;
+    }
+
+    .ebook-block{
+        padding: 73px 20px;
+    }
+}
+
+@media (max-width: 1188px){
+    .ebook-block {
+        padding: 40px 16px;
+        justify-content: center;
+    }
+    .ebook-btn,
+    .mail-input {
+        font-size: 15px;
+    }
+    .ebook-text{
+        line-height: 33px;
+        font-size:19px;
+    }
+}
+
+@media (max-width: 926px){
+.ebook-content {
+    display: block;
+    gap: 0px;
+}
+.ebook-bttns{
+    margin-top: 20px;
+    width: 100%;
+}
+.ebook-text{
+    width: 100%;
+}
+.ebook-container {
+    padding: 25px 20px;
+}
+}
+/* fcykm regv vfrfhjyws gj;fkeqcnf */
