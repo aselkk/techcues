@@ -129,7 +129,7 @@
 
 @media (max-width: 997px){
     .hero{
-        padding: 72px 110px;
+        padding: 72px 10px;
     }
     .hero-text {
         padding: 10px 80px 6px 44px;
@@ -192,6 +192,18 @@
     }
     .arrows-bottom {
         width: 41%;
+    }
+    .hero {
+        padding: 72px 15px;
+    }
+}
+
+@media (max-width: 391px){
+    .hero {
+            padding: 61px 15px;
+    }
+    .hero-text {
+        padding: 10px 44px 6px 44px;
     }
 }
 
