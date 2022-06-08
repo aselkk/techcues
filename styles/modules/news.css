@@ -122,6 +122,9 @@
     .topics{
         gap:20px;
     }
+    .news{
+        padding: 25px 13px 47px;
+    }
 }
 
 @media (max-width: 459px){
@@ -132,17 +135,20 @@
     .adbox {
         padding: 35px 10px;
     }
+    .news{
+        padding: 77px 13px 47px;
+    }
 }
 
 @media (max-width: 475px){
-    .news {
-        padding: 30px 110px 247px;
+    .news{
+        padding: 77px 13px 47px;
     }
 }
 
 @media (max-width: 395px){
-    .news {
-        padding: 30px 110px 68px;
+    .news{
+        padding: 77px 13px 47px;
     }
 }
 
