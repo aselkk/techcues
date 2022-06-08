@@ -118,6 +118,11 @@
     padding: 56px 23px;
 }}
 
+@media (max-width: 400px)
+{.studies {
+    padding: 56px 18px;
+}}
+
 @media (max-width: 720px){
     .studies{
         padding: 56px 72px;
