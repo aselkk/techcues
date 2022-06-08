@@ -108,7 +108,15 @@
     .studies-arrows {
         display: none;
     }
+    .studies{
+        padding: 56px 72px;
+    }
 }
+
+@media (max-width: 500px)
+{.studies {
+    padding: 56px 23px;
+}}
 
 @media (max-width: 720px){
     .studies{
