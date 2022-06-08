@@ -113,7 +113,8 @@
         font-size: 15px;
     }
     .copyright{
-        flex-direction:column
+        flex-direction:column;
+        gap: 0px;
     }
 }
 
