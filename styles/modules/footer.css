@@ -93,8 +93,11 @@
 
 @media (max-width: 1062px){
     .footer-container {
+        align-items: center;
         gap: 65px;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: unset;
+        justify-content: center;
     }
     .footer{
         padding: 61px 104px 134px;
@@ -115,6 +118,12 @@
     .copyright{
         flex-direction:column;
         gap: 0px;
+    }
+}
+
+@media (max-width: 481px){
+    .footer-item {
+        width: 42%;
     }
 }
 

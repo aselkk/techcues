@@ -126,3 +126,14 @@
     }
 }
 
+@media (max-width: 1000px){
+    .articles,
+    .news,
+    .studies {
+        padding: 56px 90px;
+        width: 100%;
+    }
+}
+
+
+

@@ -66,6 +66,12 @@
     height: 44px;
 }
 
+.search-btn{
+    border:none;
+    cursor: pointer;
+    background: none;
+}
+
 .menu-btn {
     display: none;
 	width: 30px;
@@ -73,6 +79,9 @@
 	position: relative;
 	z-index:2;
 	overflow: hidden;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 .menu-btn span {
 	width: 30px;

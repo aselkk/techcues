@@ -22,13 +22,19 @@ a:visited{
     color:inherit
 }
 
-
 a{
-    color:inherit
+    color:inherit;
+    transition: all 0.2s ease-out;
 }
-
 
 a:hover{  
     transform: scale(1.05); 
     transition: all 0.2s ease-out;
+}
+
+@media (hover: hover) and (pointer: fine) and (max-width: 1020px){
+    a:hover { 
+        transform: none; 
+        transition: none;    
+    }
 }

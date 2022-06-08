@@ -174,7 +174,8 @@
         margin: 14px 0 26px 0;
     }
     .line{
-        top: 85px;
+        top: 100px;
+        height: 40%;    
     }
     .heading{
         font-size:11px;
